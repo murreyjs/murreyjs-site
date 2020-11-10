@@ -1,0 +1,22 @@
+<div class="stock-viz-container">
+  <div class="page-explanation">
+
+  </div>
+  <div class="chart-container">
+    <div class="stock-header">
+      <mat-form-field class="symbol-form-field">
+        <mat-label>Symbol</mat-label>
+        <input matInput type="text" [(ngModel)]="symbol" (change)="getStockPrices()">
+        <button mat-button *ngIf="symbol" matSuffix mat-icon-button aria-label="Clear" (click)="symbol=''">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <div class="stock-title">
+        {{displaySymbol | uppercase}}
+      </div>
+    </div>
+    <div id="d3-chart-container">
+
+    </div>
+  </div>
+</div>

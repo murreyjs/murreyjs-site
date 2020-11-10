@@ -1,0 +1,19 @@
+#d3-chart-container {
+  text-align: center;
+}
+.chart-container {
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+}
+.stock-header {
+  padding: 15px;
+  display: inline-flex;
+  width: 100%;
+}
+.stock-title {
+  margin-top: 25px;
+  position: absolute;
+  left: 50%;
+  font-size: 25px;
+}

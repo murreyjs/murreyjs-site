@@ -1,0 +1,42 @@
+@import '../../../styles.scss';
+
+.home-container {
+   display: flex;
+   height: 50vh;
+
+   .selection-sidebar {
+     width: 50%;
+   }
+
+   .murrey-header {
+     overflow: hidden;
+     width: 50%;
+     display: grid;
+     text-align: center;
+     background-color: black;
+
+     .murrey-header-text {
+       position: relative;
+       top: 30%;
+       font-size: 75px;
+       padding: 5px;
+       color: white;
+     }
+
+     .murrey-header-sub-text {
+       position: relative;
+       padding: 5px;
+       font-size: 30px;
+       color: white;
+     }
+   }
+ }
+ .about-me-container {
+   height: 50vh;
+   background-image: linear-gradient(black, $purple);
+ }
+
+ .content-example-container{
+   height: 100vh;
+   border-top: $purple solid 5px;
+ }

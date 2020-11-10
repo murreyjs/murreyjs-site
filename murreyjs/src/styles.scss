@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+  font-family: jeebra;
+  src: url(assets/fonts/Jeebra-vzw4.otf) format("opentype");
+}
+
+.jeebra {
+  font-family: jeebra;
+}
+
+$purple: #5B51A9;
